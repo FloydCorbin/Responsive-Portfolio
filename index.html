@@ -4,29 +4,11 @@
 	<title>Floyd Corbin: About Me</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
 	
-<!-- Inside your Responsive-Portfolio folder, find your styles.css file. You will write your media queries at the bottom of styles.css.
-Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px.
-
-
-
-You use 980px because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
-768px is about the width of a tablet and 640px is about the width of a phone in landscape.
-
-
-
-Make the layout match the following screenshots:
-index.html: 980px, 768px, 640px
-portfolio.html: 980px, 768px, 640px
-contact.html: 980px, 768px, 640px
-Make the position of the header static (the default positioning) when the screen is 640px wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site.
-Be sure to include the viewport tag in all your HTML files, otherwise your media-queries won't function as expected on mobile devices. (Hint: You won't need to use exact pixels for anything other than the container)
-Protip: Use the Chrome extensions Window Resizer and Browser Width to see the browser dimensions in Chrome.
-Deploy your new portfolio (now with media queries!) to GitHub Pages. -->
-
 </head>
-	<body>
+	
+	<body class="container">
 		<div class="headerDiv">
 			<header class="header1"><h1>Floyd Corbin</h1></header>
 			<nav>
@@ -37,49 +19,52 @@ Deploy your new portfolio (now with media queries!) to GitHub Pages. -->
 		</div>
 
 		
-			<main>
+		<main>
 				
-				<header>
-					<h2 class="header2">About Me</h1>
-				</header>
+			<header>
+				<h2 class="header2">About Me</h1>
+			</header>
 
-				<article>
+			<article>
+			
+
+				<p class="place" >
 				
+				<img class="profile" src="assets/images/profile.jpg" alt="This is me, Floyd Corbin">
 
-					<p class="place" >
-					
-					<img class="profile" height="160" src="assets/images/profile.jpg" alt="This is me, Floyd Corbin">
+					I am relatively new to the world of coding, but as a former IT project manager with the Department of Technology Services at the State of Utah, I have supported and lead development on a number of applications.
+				</p> 
+				<br>
+				<p class="place">
+					My educational background starts with a bachelors in International Studies from the University of Utah. I later received my Masters in Business Administration from Westminster College. Most recently I have undertaken the 6 month Coding Bootcamp via the University of Utah's Continuing Ed program. I am CSM certified and anticipate getting my PMP certificate by the end of 2017.
+				</p>
+			</article>
 
-						I am relatively new to the world of coding, but as a former IT project manager with the Department of Technology Services at the State of Utah, I have supported and lead development on a number of applications.
-					</p> 
-					<br>
-					<p class="place">
-						My educational background starts with a bachelors in International Studies from the University of Utah. I later received my Masters in Business Administration from Westminster College. Most recently I have undertaken the 6 month Coding Bootcamp via the University of Utah's Continuing Ed program. I am CSM certified and anticipate getting my PMP certificate by the end of 2017.
-					</p>
-				</article>
+		</main>
 
-			</main>
-			<aside>
-				<header>
-					<h3 class="header3">Connect with Me</h2>
-				</header>
-				<a href="https://github.com/FloydCorbin">
-					<img class="navLinks" height="50"src="assets/images/github.png" alt="Github">
-				</a> 
+		<aside>
+			<header>
+				<h3 class="header3">Connect with Me</h2>
+			</header>
+			<a href="https://github.com/FloydCorbin">
+				<img class="navLinks" height="50" src="http://icons.iconarchive.com/icons/designbolts/free-cute-shaded-social/512/Github-icon.png" alt="Github">
+			</a> 
 
-				<a href="https://www.linkedin.com/in/floydcorbin/">
-					<img class="navLinks" height="50" src="assets/images/LinkedIn.png" alt="LinkedIn">
-				</a> 
-				
-				<a href="https://stackoverflow.com/users/8091165/floydcorbin">
-					<img class="navLinks"height="50" src="assets/images/StackOverflow.png" alt="StackOverflow">
-				</a>
-				
-			</aside>
+			<a href="https://www.linkedin.com/in/floydcorbin/">
+				<img class="navLinks" height="50" src="http://www.freeiconspng.com/uploads/linkedin-icon-19.png" alt="LinkedIn">
+			</a> 
+			
+			<a href="https://stackoverflow.com/users/8091165/floydcorbin">
+				<img class="navLinks"height="50" src="http://www.iconsdb.com/icons/preview/icon-sets/web-2-blue/stackoverflow-3-xxl.png" alt="StackOverflow">
+			</a>
+			
+		</aside>
+
 		<footer>
 			<div class="footer">
 				<p style="text-align: center;">&copy; Copyright 2017 Floyd Corbin</p> 
 			</div>
 		</footer>
+
 	</body>
 </html>

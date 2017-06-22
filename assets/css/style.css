@@ -142,7 +142,8 @@ a{
 }
 .profile{
 	float: left;
-	margin-right: 10px;
+	margin: 10px 10px 10px 0px;
+
 }
 
 .contactImg{
@@ -162,6 +163,18 @@ table{
 	margin-right: auto;
 }
 
-/* @media queries:  Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px. You use 980px because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
-768px is about the width of a tablet and 640px is about the width of a phone in landscape. */
+
+
+@media (max-width:980px)  {
+	.container {width: 980px;}
+
+}
+@media (max-width:760px)  {
+	.container {width: 760px;}
+
+}
+@media (max-width: 640px)  {
+	.container{width: 640px;}
+	.headerDiv {position: "static";}
+}
 
