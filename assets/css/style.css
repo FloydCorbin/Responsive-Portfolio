@@ -1,0 +1,157 @@
+
+.headerDiv{
+	border-width: 2px;
+	border-bottom: solid;
+	border-color: #777777;
+	background-color: white;
+	padding-top: 5px;
+	height: 65px
+
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+
+.header1{
+	padding: 15px;
+	float: left;
+	margin-left: 100px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: auto;
+	font-size: 35px;
+
+}
+
+nav{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: left;
+	background-color: inherit;
+	color: #777777;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 275px;
+
+}
+
+body{
+	background-image: url("http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg");
+	width: auto;
+}
+
+main{
+	background-color: #ffffff;
+	height: auto;
+	float: left;
+	width: 650px;
+	margin: 30px 5px 0px 10px;
+	border: 2px solid;
+	border-color: #dddddd;
+
+}
+
+.header2{
+	padding: 15px;
+	border-color: #cccccc;
+	font-size: 25px;
+	border-bottom: 2px solid;
+	border-color: #dddddd;
+
+}
+
+aside{
+	float: left;
+	width: 260px;
+	margin: 30px 5px 0px 10px;
+	background-color: #ffffff;
+	border: 1px solid;
+	border-color: #dddddd;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+}
+
+
+.header3{
+	padding: 15px;
+	font-size: 20px;
+	text-align: center;
+
+
+}
+
+footer{
+	background-color: #666666;
+	clear: both;
+	color: #777777;
+	border-color: #4aaaa5;
+	border-top: 5px solid;
+	margin-top: 10px;
+	height: 60px;
+	padding-top: 35px;
+}
+
+html{
+	width: 960px;
+}
+
+form{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	padding: 15px;
+	font-size: 14px;
+
+}
+
+h1,h2,h3{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+.place{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+
+a{
+	padding: 15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+.label{
+	background-color: #4aaaa5;
+	height: 20px;
+	width: 200px;
+	position: absolute;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	text-align: center;
+	top: 10px;
+	z-index: 2
+
+}
+.profile{
+	float: left;
+	margin-right: 10px;
+}
+
+img{
+	padding-top: 5px;
+	z-index: -1;
+	float: left;
+	margin-right: 10px;
+
+}
+
+article{
+	margin-bottom: 35px;
+}
+
+
+/* @media queries:  Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px. You use 980px because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
+768px is about the width of a tablet and 640px is about the width of a phone in landscape. */
+
