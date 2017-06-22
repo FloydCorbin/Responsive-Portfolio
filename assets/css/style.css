@@ -17,8 +17,8 @@
 .header1{
 	padding: 15px;
 	float: left;
-	margin-left: 100px;
-	background-color: #4aaaa5;
+	margin-left: 80px;
+	background-color: #b74747;
 	color: #ffffff;
 	width: auto;
 	font-size: 35px;
@@ -35,6 +35,9 @@ nav{
 	padding-left: 275px;
 
 }
+.navLinks{
+	padding: 15px;
+}
 
 body{
 	background-image: url("http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg");
@@ -45,8 +48,8 @@ main{
 	background-color: #ffffff;
 	height: auto;
 	float: left;
-	width: 650px;
-	margin: 30px 5px 0px 10px;
+	width: 66%;
+	margin: 50px 5px 50px 10px;
 	border: 2px solid;
 	border-color: #dddddd;
 
@@ -58,16 +61,15 @@ main{
 	font-size: 25px;
 	border-bottom: 2px solid;
 	border-color: #dddddd;
+	color: #b74747;
 
 }
 
 aside{
 	float: left;
-	width: 260px;
-	margin: 30px 5px 0px 10px;
+	width: 27%;
+	margin: 50px 5px 50px 10px;
 	background-color: #ffffff;
-	border: 1px solid;
-	border-color: #dddddd;
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-bottom: 10px;
@@ -78,24 +80,28 @@ aside{
 	padding: 15px;
 	font-size: 20px;
 	text-align: center;
-
-
+	color: #b74747;
+	border-bottom: 2px solid;
+	border-color: #dddddd;
 }
 
 footer{
-	background-color: #666666;
+	background-color: lightgrey;
 	clear: both;
-	color: #777777;
+	color: #b74747;
 	border-color: #4aaaa5;
 	border-top: 5px solid;
-	margin-top: 10px;
 	height: 60px;
 	padding-top: 35px;
 }
 
+
 html{
 	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 
 form{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -117,30 +123,30 @@ h1,h2,h3{
 
 
 a{
-	padding: 15px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
+	color: #b74747;
+
 }
 
 .label{
-	background-color: #4aaaa5;
-	height: 20px;
-	width: 200px;
-	position: absolute;
+	background-color: #b74747;
+	height: 30px;
+	width: 205px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-	text-align: center;
-	top: 10px;
-	z-index: 2
-
+	color: darkgrey;
+	z-index: 2;
+	position: relative;
+	left: 57.5px;
+	top: -45px;
+	padding-top: 10px;
 }
 .profile{
 	float: left;
 	margin-right: 10px;
 }
 
-img{
-	padding-top: 5px;
+.contactImg{
+	padding-top: 15px;
 	z-index: -1;
 	float: left;
 	margin-right: 10px;
@@ -151,6 +157,10 @@ article{
 	margin-bottom: 35px;
 }
 
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /* @media queries:  Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px. You use 980px because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
 768px is about the width of a tablet and 640px is about the width of a phone in landscape. */
